@@ -18,7 +18,7 @@ void printIntersection(int arr1[],int arr2[],int n,int m){
 }
 }
 int main()
-{
+{  //if you havee unsorted array htn you can sort them first
     int arr1[]={1,2,3,4,5};
     int arr2[]={2,3,4,5};
     int n=sizeof(arr1)/sizeof(arr1[0]);
