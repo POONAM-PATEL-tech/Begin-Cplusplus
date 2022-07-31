@@ -11,6 +11,7 @@ int fact(int n){
     }else{
     int smalloutput=fact(n-1);
     return n*smalloutput;
+    
     }
 }
 
