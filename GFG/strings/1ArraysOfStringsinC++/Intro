@@ -1,0 +1,10 @@
+in C++, a string is usually just an array of (or a reference/points to) characters that ends with the NULL character '\0'.
+A string is a 1-dimensional array of characters and an array of strings is a 2-dimensional array of characters.
+
+Below are the 5 different ways to create an Array of Strings in C++:
+
+a. Using Pointers
+b. Using 2-D Array
+c. Using the String Class
+d. Using the vector Class
+e. Using the array class

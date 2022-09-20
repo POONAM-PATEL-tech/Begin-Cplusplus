@@ -1,0 +1,18 @@
+//we have two types of errors 
+//1.logical 
+//2.Syntex Error
+//these are the four process to handle the error
+//Hit ,throw,catch,handle
+
+/*try
+{
+throw //it will throw exception (if catch is not match with throw as a data type then it will abort)
+}
+catch{
+
+}
+jo risky part hai wo try ke andar likhenge
+
+Synchronus(This can be only done by try throw and catch)
+Asysnchronus
+*/

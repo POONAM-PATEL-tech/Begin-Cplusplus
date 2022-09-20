@@ -1,21 +1,21 @@
 #include<iostream>
 using namespace std;
-void reverse(int n){
-    static int sum=0;
+int reverse(int n){
+    
+    static int reverse_num=0;
     
     if(n>0){
-        int rem=n%10;
-        sum=sum*10+rem;
-        int b=n/10;
-         reverse(b);
+        int remainder=n%10;
+        reverse_num=reverse_num*10+remainder;
+        reverse(n/10);
     }
- 
- cout<< sum;
+    return reverse_num;
 }
+
 int main()
 {
     int n;
     cin>>n;
-    reverse(n);
+    cout<<"Reversed Number"<<reverse(n)<<endl;
     return 0;
 }
